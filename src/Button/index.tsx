@@ -16,8 +16,7 @@ export interface ButtonProps {
 const prefixCls = 'wj-button';
 
 const Button:React.FC<ButtonProps> = ({children, type = 'primary', ...rest }) => {
-    return <div className={prefixCls}
-        style = {{}}>
+    return <div className={prefixCls}>
         {children}
     </div>
 }
